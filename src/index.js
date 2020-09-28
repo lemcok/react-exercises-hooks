@@ -11,10 +11,11 @@ import ReactDOM from 'react-dom';
 // import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
 // import { Memorize } from './components/06-memos/Memorize';
 // import { MemoHook } from './components/06-memos/MemoHook';
-import { CallBackHook } from './components/06-memos/CallBackHook';
+// import { CallBackHook } from './components/06-memos/CallBackHook';
+// import { Padre } from './components/07-tareaHooks/Padre';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 
 ReactDOM.render(
-  <CallBackHook />,
+  <TodoApp />,
   document.getElementById('root')
 );
-
