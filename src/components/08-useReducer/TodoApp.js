@@ -15,8 +15,6 @@ export const TodoApp = () => {
 
     const [ todos, dispatch ] = useReducer( todoReducer, [], init);
 
-    
-
     useEffect(() => {
         localStorage.setItem('todos', JSON.stringify( todos ))
     }, [todos])
@@ -64,7 +62,6 @@ export const TodoApp = () => {
                 </div>
                 <div className="col-5">
                     <TodoAdd handleAddTodo={ handleAddTodo } />
-
                 </div>
             </div>
         </>
